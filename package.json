@@ -1,0 +1,16 @@
+{
+  "name": "nail-the-flex",
+  "version": "1.0.0",
+  "description": "SA practise Flex\u001b[D\u001b[l\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4"
+  }
+}
