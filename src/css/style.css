@@ -231,10 +231,14 @@ body {
   padding: 0;
   align-items: flex-start;
   flex-basis: 30%;
-  justify-content: space-between;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+
+.sa_menu > li {
+  text-align: center;
+  flex: 1;
 }
 
 .sa_menu__link {
@@ -417,4 +421,43 @@ body {
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
   color: #888;
+}
+
+@media all and (max-width: 1000px) {
+  .sa_nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sa_menu {
+    width: 70%;
+    padding-top: 0.8rem;
+  }
+
+  .sa_header-text {
+    font-size: 2rem;
+  }
+
+  .sa_section-heading {
+    align-self: center;
+  }
+
+  .sa_about-us__details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sa_about-us__desc-title {
+    align-self: center;
+  }
+
+  .sa_about-us__details > * {
+    width: 100%;
+    padding: 0.8rem 0;
+  }
+
+  .sa_about-us__specialization {
+    align-items: center;
+    text-align: center;
+  }
 }
