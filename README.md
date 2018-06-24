@@ -5,11 +5,11 @@ Landing page built for a furniture company using CSS Flexbox with Gulp to minify
 <br>
 
 ## :100: Responsive
-![Imgur](https://i.imgur.com/6rh7gnG.gifv)
+![Responsive](https://i.imgur.com/rD3I1xA.gif)
 <br>
 
 ## :100: Categories Animation
-[Imgur](https://i.imgur.com/NzSlT32.gifv)
+![Category on hover animation](https://i.imgur.com/NzSlT32.gif)
 
 ## :package: Build 
 → Release 1.0.0 (6-26-18')
