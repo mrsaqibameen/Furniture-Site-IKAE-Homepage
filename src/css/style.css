@@ -480,3 +480,32 @@ body {
     height: 15rem;
   }
 }
+
+@media all and (max-width: 500px) {
+  .sa_nav {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sa_menu {
+    width: 100%;
+  }
+
+  .sa_header-text {
+    font-size: 1.5rem;
+  }
+
+  .sa_about-us {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .sa_about-us__desc-details {
+    text-align: center;
+  }
+
+  .sa_section-heading--category {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
