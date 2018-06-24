@@ -343,6 +343,7 @@ body {
 
 .sa_section-heading--category {
   padding: 2rem 10rem;
+  text-align: center;
   background-color: #f3f3f3;
 }
 
@@ -449,6 +450,7 @@ body {
 
   .sa_about-us__desc-title {
     align-self: center;
+    text-align: center;
   }
 
   .sa_about-us__details > * {
@@ -459,5 +461,22 @@ body {
   .sa_about-us__specialization {
     align-items: center;
     text-align: center;
+  }
+
+  .sa_special-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .sa_cat-container {
+    flex-direction: column;
+  }
+
+  .sa_cat-container > div {
+    width: 100%;
+    height: 15rem;
   }
 }
